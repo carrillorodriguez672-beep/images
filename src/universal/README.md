@@ -55,9 +55,8 @@ Refer to [this guide](https://containers.dev/guide/dockerfile) for more details.
 
 ## Disabling Automatic Setup in Codespaces
 
-Codespaces will automatically perform some default setup when the `universal` image is used and no `postCreateCommand` is provided. This can be disabled with the `customizations.codespaces.disableAutomaticConfiguration` setting:
+Codespaces will automatically perform some default setup when the `universal` image is used and no `postCreateCommand` is provided. This can be disabled with the `customizations.codespaces.disableAutomaticConfiguration` sett
 
-```jsonc
 "customizations": {
 	// Configure properties specific to Codespaces.
 	"codespaces": {
@@ -72,3 +71,4 @@ Copyright (c) Microsoft Corporation. All rights reserved.
 
 Licensed under the MIT License. See [LICENSE](https://github.com/devcontainers/images/blob/main/LICENSE).
 
+control + shift + m
